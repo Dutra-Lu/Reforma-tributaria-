@@ -26,7 +26,7 @@ export function PorDentroPorFora() {
   const data = {
     labels: ['Por dentro (sistema atual)', 'Por fora (reforma)'],
     datasets: [
-      { label: 'Valor líquido', data: [b, b], backgroundColor: '#0f4c5c' },
+      { label: 'Valor líquido', data: [b, b], backgroundColor: '#c2410c' },
       { label: 'Tributo', data: [dentro - b, fora - b], backgroundColor: '#e8a33d' },
     ],
   }
